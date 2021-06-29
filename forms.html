@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>Bem vindo a <a href="index.html"> minha página</a> na internet</p>
+
+    <h1>Um estudo sobre a tag FORM</h1>
+
+    <h2>Formulário de login:</h2>
+
+    <form name="login" action="process-form.php" method="GET">
+      Usuário:
+      <input type="text" name="username" size="40" />
+      <br />
+      Senha:
+      <input type="password" name="password" size="40" />
+      <br />
+      Carro:
+      <select name="carros" id="carros">
+        <option value="volvo">Volvo</option>
+        <option value="ssab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="Audi">Audi</option>
+      </select>
+      <br />
+      Envie sua mensagem:
+      <br />
+      <textarea name="comments" rows="10" cols="30"></textarea>
+      <br />
+      <input type="checkbox" name="veiculo" value="Moto" checked />Eu tenho uma
+      moto <input type="checkbox" name="veiculo" value="Car" />Eu tenho um carro
+      <br />
+      <input type="radio" name="veiculo" value="Moto" checked />Eu tenho uma
+      moto <input type="radio" name="veiculo" value="Car" />Eu tenho um carro
+      <br />
+      <input type="radio" name="bike" value="Moto" checked />Moto 1
+      <input type="radio" name="bike" value="moto 2" />Moto 2
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
